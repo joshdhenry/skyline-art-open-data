@@ -13,7 +13,7 @@ For each map there are three files:
 
 - `scene.geojson`: the OpenStreetMap features of the map's square (buildings, building parts, water,
   coastline, parks, forests, railways, grass and fields, piers, ferry routes, roads, bridges and
-  lookout viewpoints) with their OpenStreetMap tags. Every building also carries the height used
+  lookout viewpoints) with their OpenStreetMap tags (except phone and email tags, which are left out). Every building also carries the height used
   on the poster and where that height came from.
 - `alterations.csv`: the buildings whose height came from Overture Maps because OpenStreetMap had
   none. This is the whole difference between OpenStreetMap's data and this database.

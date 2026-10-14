@@ -15,6 +15,11 @@ forests, land cover (grass, fields and similar), railways, piers, ferry routes, 
 bridge areas, stadiums and lookout viewpoints. Elements are kept whole, with their OpenStreetMap
 tags, and are written in layer order and then by OpenStreetMap id.
 
+One exception: the tag keys that give direct contact details (`phone`, `mobile`, `fax`, `email` and
+their `contact:` forms, the list `SCENE_EXCLUDED_TAG_KEYS` in the code) are removed from the
+published scene. They remain in OpenStreetMap itself; they are not needed to draw or check a
+map, and the scene should not be a ready-made list of contacts.
+
 The area is the map's square. For a viewpoint poster, which shows land out to the horizon, the
 buildings, building parts, water, coastline, parks, forests and land cover are taken over the
 wider box the poster shows; the manifest's `bbox` and the map id cover that whole box.

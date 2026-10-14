@@ -1,0 +1,22 @@
+{
+  "alterations_sha256": "07bebc98cc015cece7e0da6c98cf482857b56b50e0d99cde637d0fb682a45bf5",
+  "bbox": {
+    "east": -105.22328705000203,
+    "north": 40.051332013395175,
+    "south": 39.97862006529356,
+    "west": -105.31785282409643
+  },
+  "city": "Boulder",
+  "coordinate_decimals": null,
+  "credit_line": "© OpenStreetMap contributors, Overture Maps Foundation. Data available under the Open Database License: https://www.openstreetmap.org/copyright",
+  "map_id": "e89ea3ac",
+  "osm_data_timestamp": "2026-10-14T23:27:08Z",
+  "overture_filled_buildings": 17404,
+  "overture_release": "2026-09-23.1",
+  "population": 107125,
+  "render_date": "2026-10-14",
+  "scene_features": 42329,
+  "scene_sha256": "1b727d30c8298a4766c319f64b0083bb7460ce84cf9d0b40d00335e9a4e11fba",
+  "state": "Colorado",
+  "tool_git_commit": "88f3e950fd9f95d406b1a5c6b201d2c4404f5b48"
+}
